@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/ludonvl/mount-web/blob/master/mount-logo-named.png" width="200"></p>
+<p align="center"><img src="https://github.com/ludonvl/mount-web/blob/master/public/mount-logo-named.png" width="200"></p>
 
 # Mount Web
 
