@@ -14,6 +14,11 @@ export default new Router({
       component: Home
     },
     {
+      path: '/dashboard',
+      name: 'dashboard',
+      component: Home
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
