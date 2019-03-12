@@ -12,8 +12,9 @@ $colorMain_6: #5BDDB4;
 $colorMain_7: #FEFE5E;
 $colorMain_8: #FFB858;
 $grey: #c3c3c3;
+
 $primary: $colorMain_4;
-$secondary: #64e4ff;
+$info: #64e4ff;
 
 /*=====  End of COLORS  ======*/
 
@@ -22,14 +23,14 @@ $secondary: #64e4ff;
 =============================*/
 @font-face {
 	font-family: National-Bold;
-	src:url(~assets/font/nunito/Nunito-Bold.ttf);
+	src:url(~assets/fonts/nunito/Nunito-Bold.ttf);
 }
 @font-face {
 	font-family: National-Regular;
-	src:url(~assets/font/nunito/Nunito-Regular.ttf);
+	src:url(~assets/fonts/nunito/Nunito-Regular.ttf);
 }
 
-$font_1: National-Bold;
-$font_2: National-Regular;
+$ft_nunito_bold: National-Bold;
+$ft_nunito_regular: National-Regular;
 
 /*=====  End of FONTS  ======*/

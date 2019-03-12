@@ -1,0 +1,47 @@
+.hero.is-success {
+  background: $primary !important;
+}
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.box {
+  margin-top: 5rem;
+}
+.avatar {
+  margin-top: -70px;
+  padding-bottom: 20px;
+}
+.avatar img {
+  padding: 5px;
+  width: 50%;
+  background: #fff;
+  background-position: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+input {
+  font-weight: 300;
+}
+
+h3 {
+  font-family: $ft_nunito_bold;
+}
+p {
+  font-family: $ft_nunito_regular;
+  font-weight: 700;
+}
+p.subtitle {
+  padding-top: 1rem;
+}
+.is-info {
+  background-color: $info !important;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2) !important;
+  transition: all 0.25s ease;
+
+  &:hover {
+    background-color: darken($info, 10%) !important;
+  }
+}
+

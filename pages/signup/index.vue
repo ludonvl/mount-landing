@@ -1,5 +1,4 @@
 <template>
-      <section class="hero is-success is-fullheight">
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="column is-4 is-offset-4">
@@ -30,7 +29,9 @@
                 </div>
             </div>
         </div>
-    </section>
 </template>
-<script>
-</script>
+<style lang="scss" scoped>
+  @import 'assets/css/var';
+  @import 'assets/css/sign';
+</style>
+
