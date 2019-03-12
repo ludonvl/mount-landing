@@ -1,13 +1,16 @@
 const common = require('./lang/common')
+const navbar = require('./lang/navbar')
 const sign = require('./lang/sign')
 
 const translations = {
   en: {
     ...common.en,
+    ...navbar.en,
     ...sign.en,
   },
   fr: {
     ...common.fr,
+    ...navbar.fr,
     ...sign.fr,
   }
 }

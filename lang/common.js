@@ -1,12 +1,14 @@
 module.exports = {
 	en: {
 		common: {
-			hello: 'Hello !',
+			appname: 'Mount',
+			catcher: 'Don\'t waste your time. Power your device before you\'re home.',
 		},
 	},
 	fr: {
 		common: {
-			hello: 'Bonjour toi',
+			appname: 'Mount',
+			catcher: 'Gagnez du temps. Allumez vos appareils avant d\'etre chez vous.',
 		},
 	},
 }
