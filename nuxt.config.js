@@ -1,11 +1,14 @@
 const common = require('./lang/common')
+const sign = require('./lang/sign')
 
 const translations = {
   en: {
     ...common.en,
+    ...sign.en,
   },
   fr: {
     ...common.fr,
+    ...sign.fr,
   }
 }
 
@@ -46,6 +49,11 @@ module.exports = {
       }
     }
   },
+
+  css: [
+    { src: '~/assets/css/main.scss', lang: 'scss' },
+    { src: 'font-awesome/scss/font-awesome.scss', lang: 'scss' }
+  ],
 
   modules: [
     ['nuxt-i18n', {
