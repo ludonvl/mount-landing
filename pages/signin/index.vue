@@ -19,7 +19,7 @@
                                 <input class="input is-large" type="password" :placeholder="$t('sign.signin.form.password')">
                             </div>
                         </div>
-                        <button class="button is-block is-info is-large is-fullwidth">{{ $t('sign.signin.form.sendButton') }}</button>
+                        <button class="button is-block is-info is-large is-fullwidth"><nuxt-link :to="localePath('dashboard')">{{ $t('sign.signin.form.sendButton') }}</nuxt-link></button>
                     </form>
                 </div>
                 <p>

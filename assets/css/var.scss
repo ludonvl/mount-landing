@@ -13,8 +13,32 @@ $colorMain_7: #FEFE5E;
 $colorMain_8: #FFB858;
 $grey: #c3c3c3;
 
-$primary: $colorMain_4;
-$info: #64e4ff;
+$primary: $colorMain_4 !default;
+$info: #64e4ff !default;
+
+// Colors
+$black:        hsl(0, 0%, 4%) !default;
+$black-bis:    hsl(0, 0%, 7%) !default;
+$black-ter:    hsl(0, 0%, 14%) !default;
+
+$grey-darker:  hsl(0, 0%, 21%) !default;
+$grey-dark:    hsl(0, 0%, 29%) !default;
+$grey:         hsl(0, 0%, 48%) !default;
+$grey-light:   hsl(0, 0%, 71%) !default;
+$grey-lighter: hsl(0, 0%, 86%) !default;
+
+$white-ter:    hsl(0, 0%, 90%) !default;
+$white-bis:    hsl(0, 0%, 94%) !default;
+$white:        hsl(0, 0%, 100%) !default;
+
+$orange:       hsl(14,  100%, 53%) !default;
+$yellow:       hsl(48,  100%, 67%) !default;
+$green:        hsl(141, 71%,  48%) !default;
+$turquoise:    hsl(171, 100%, 41%) !default;
+$blue:         hsl(217, 71%,  53%) !default;
+$purple:       hsl(271, 100%, 71%) !default;
+$red:          hsl(348, 100%, 61%) !default;
+
 
 /*=====  End of COLORS  ======*/
 
@@ -29,8 +53,23 @@ $info: #64e4ff;
 	font-family: National-Regular;
 	src:url(~assets/fonts/nunito/Nunito-Regular.ttf);
 }
+@font-face {
+	font-family: National-Light;
+	src:url(~assets/fonts/nunito/Nunito-Light.ttf);
+}
 
 $ft_nunito_bold: National-Bold;
 $ft_nunito_regular: National-Regular;
+$ft_nunito_light: National-Light;
+
+$size-1: 3rem !default;
+$size-2: 2.5rem !default;
+$size-3: 2rem !default;
+$size-4: 1.5rem !default;
+$size-5: 1.25rem !default;
+$size-6: 1rem !default;
+$size-7: 0.75rem !default;
+
+$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 !default;
 
 /*=====  End of FONTS  ======*/
