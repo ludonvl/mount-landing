@@ -6,7 +6,13 @@ module.exports = {
         subtitle: 'Please sign in to wake up your devices',
         form: {
           email: 'johndoe@example.com',
-          password: 'MyPassword'
+          password: '123456',
+          sendButton: 'Sign in',
+        },
+        links: {
+          signup: 'Sign up',
+          forget: 'Forget password?',
+          help: 'Need help?',
         }
       },
       signup: {
@@ -22,7 +28,13 @@ module.exports = {
         subtitle: 'Connectez-vous pour allumer vos appareils',
         form: {
           email: 'johndoe@example.com',
-          password: 'MyPassword'
+          password: '123456',
+          sendButton: 'Se connecter',
+        },
+        links: {
+          signup: 'Se connecter',
+          forget: 'Mot de passe oublie ?',
+          help: 'Besoin d\'aide ?',
         }
       },
       signup: {
