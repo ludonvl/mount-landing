@@ -10,7 +10,7 @@
                         <h2 class="subtitle is-5 is-muted">{{ $t("common.catcher") }}</h2>
                         <p>
                             <a class="button cta rounded primary-btn raised">
-                                Get Started
+                                Je veux !
                             </a>
                         </p>
                     </div>
