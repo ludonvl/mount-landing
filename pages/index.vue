@@ -5,9 +5,9 @@
                 <div class="columns is-vcentered">
                     <div class="column is-5 is-offset-1 landing-caption">
                         <h1 class="title is-1 is-bold is-spaced">
-                            Manage, Deploy.
+                            Wake up everybody !
                         </h1>
-                        <h2 class="subtitle is-5 is-muted">Lorem ipsum sit dolor amet is a dummy text used by typography industry </h2>
+                        <h2 class="subtitle is-5 is-muted">{{ $t("common.catcher") }}</h2>
                         <p>
                             <a class="button cta rounded primary-btn raised">
                                 Get Started
