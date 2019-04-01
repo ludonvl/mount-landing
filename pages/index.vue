@@ -3,7 +3,7 @@
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-vcentered">
-                    <div class="column is-5 is-offset-1 landing-caption">
+                    <div class="column is-6 is-offset-1 landing-caption">
                         <h1 class="title is-1 is-bold is-spaced">
                             Wake up everybody !
                         </h1>
@@ -14,7 +14,7 @@
                             </a>
                         </p>
                     </div>
-                    <div class="column is-5 is-offset-1">
+                    <div class="column is-4 is-offset-1">
                         <figure class="image is-4by3">
                             <img src="~assets/img/illustrations/worker.svg" alt="Description">
                         </figure>
