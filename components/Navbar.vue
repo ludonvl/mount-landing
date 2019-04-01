@@ -1,50 +1,77 @@
 <template>
     <div class="hero-head">
-        <nav class="navbar is-white">
+        <nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
             <div class="container">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="../">
-                        <img src="~/assets/img/mount-logo.svg" alt="Logo">
-                        <span>{{ $t('common.appname') }}</span>
+                    <a class="navbar-item" href="https://cssninja.io">
+                        <img src="~assets/img/mount-logo.svg" alt="" width="112" height="28">
                     </a>
-                    <span class="navbar-burger burger" data-target="navbarMenu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                </div>
-                <div id="navbarMenu" class="navbar-menu">
-                    <div class="navbar-end">
-                        <span class="navbar-item">
-                            <nuxt-link :to="localePath('signup')" class="button is-outlined">
-                                <span class="icon">
-                                    <i class="fa fa-rocket"></i>
-                                </span>
-                                <span>{{ $t('navbar.signup') }}</span>
-                            </nuxt-link>
-                        </span>
-                        <span class="navbar-item">
-                            <nuxt-link :to="localePath('signin')" class="button is-primary">
-                                <span class="icon">
-                                    <i class="fa fa-user"></i>
-                                </span>
-                                <span>{{ $t('navbar.signin') }}</span>
-                            </nuxt-link>
-                        </span>
-                        <div class="navbar-item has-dropdown is-hoverable">
-                          <a class="navbar-link is-arrowless">
-                              {{ currentLang }}
-                          </a>
 
-                          <div class="navbar-dropdown is-right">
-                            <nuxt-link :to="switchLocalePath('fr')" class="navbar-item">
-                              {{ $t('common.lang.french') }}
-                            </nuxt-link>
-                            <nuxt-link :to="switchLocalePath('en')" class="navbar-item">
-                              {{ $t('common.lang.english') }}
-                            </nuxt-link>
-                          </div>
+                    <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+                        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+                            <svg width="1000px" height="1000px">
+                                <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                                <path class="path2" d="M 300 500 L 700 500"></path>
+                                <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+                            </svg>
+                            <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
                         </div>
+                    </a>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbar-menu" class="navbar-menu is-static">
+
+                    <div class="navbar-start">
+                        <a class="navbar-item is-hidden-mobile">
+                            <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+                                <svg width="1000px" height="1000px">
+                                    <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+                                    <path class="path2" d="M 300 500 L 700 500"></path>
+                                    <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+                                </svg>
+                                <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="navbar-end">
+                        <a href="#" class="navbar-item is-secondary">
+                            Features
+                        </a>
+                        <a href="#" class="navbar-item is-secondary">
+                            Pricing
+                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                Dropdown
+                            </a>
+
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item">
+                                    Dropdown item
+                                </a>
+                                <a class="navbar-item">
+                                    Dropdown item
+                                </a>
+                                <a class="navbar-item">
+                                    Dropdown item
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#" class="navbar-item is-secondary modal-trigger" data-modal="auth-modal">
+                            Log in
+                        </a>
+                        <a class="navbar-item">
+                            <span class="button signup-button rounded secondary-btn raised">
+                                Sign up
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -60,35 +87,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-
-  @import 'assets/css/var';
-
-  .navbar {
-    background: #fff;
-    border-bottom: $primary 3px solid;
-
-    .navbar-brand {
-      font-family: $ft_nunito_bold;
-      font-size: 2rem;
-
-      img {
-        max-height: 2.75rem;
-      }
-
-      span {
-        margin-left: 10%;
-        color: darken($primary, 50%);
-      }
-    }
-
-    .navbar-menu {
-      font-family: $ft_nunito_regular;
-    }
-
-    .navbar-dropdown a:hover {
-      background: #eee;
-    }
-  }
-</style>
