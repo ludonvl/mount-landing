@@ -25,7 +25,7 @@
             </div>
         </div>
 
-        <div class="hero-foot mb-20">
+        <!-- <div class="hero-foot mb-20">
             <div class="container">
                 <div class="tabs is-centered">
                     <ul>
@@ -37,7 +37,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <Features />

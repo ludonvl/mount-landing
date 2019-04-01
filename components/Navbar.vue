@@ -37,7 +37,7 @@
                         <a href="#" class="navbar-item is-secondary">
                             {{ $t("navbar.download") }}
                         </a>
-                        <a href="#" class="navbar-item is-secondary modal-trigger" data-modal="auth-modal">
+                        <a href="#" class="navbar-item is-secondary modal-trigger" data-target="modal">
                             {{ $t("navbar.login") }}
                         </a>
                         <a class="navbar-item">
