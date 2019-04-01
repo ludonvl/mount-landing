@@ -1,6 +1,6 @@
 <template>
-  <div class="hero is-fullheight is-default is-bold">
-    <Navbar/>
+  <div>
+    <!-- <Navbar/> -->
     <nuxt/>
     <Footer />
   </div>

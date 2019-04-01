@@ -2,7 +2,7 @@
 Classes to change the feel of bulma buttons
 ========================================================================== */
 
-// CTA buttons 
+// CTA buttons
 
 .button {
     cursor: pointer;
@@ -38,7 +38,7 @@ Classes to change the feel of bulma buttons
 .button {
     &.primary-btn {
         outline: none;
-        border-color: $primary;
+        border-color: $primary !important;
         background-color: $primary;
         color: $white;
         transition: all 0.5s;
@@ -52,7 +52,7 @@ Classes to change the feel of bulma buttons
         &.btn-outlined {
             border-color: $primary;
             color: $primary;
-            background-color: transparent; 
+            background-color: transparent;
             &:hover {
                 color: $white;
                 background-color: $primary;
@@ -75,7 +75,7 @@ Classes to change the feel of bulma buttons
         &.btn-outlined {
             border-color: $secondary;
             color: $secondary;
-            background-color: transparent; 
+            background-color: transparent;
             &:hover {
                 color: $white;
                 background-color: $secondary;
