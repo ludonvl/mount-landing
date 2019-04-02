@@ -42,6 +42,8 @@
 
     <Features />
 
+    <Downloads />
+
     <Pricing />
 
     <section class="section section-light-grey is-medium">
@@ -117,12 +119,14 @@
 <script>
 import Navbar from '../components/Navbar'
 import Features from '../components/main/Features'
+import Downloads from '../components/main/Downloads'
 import Pricing from '../components/main/Pricing'
 
     export default {
         components: {
             Navbar,
             Features,
+            Downloads,
             Pricing,
         }
 
