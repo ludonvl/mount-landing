@@ -53,7 +53,7 @@
                                 <p>This is some explanatory text that is on two rows</p>
                             </div> -->
                             <div class="card-action">
-                                <a download href="/static/linux/mount-app-linux-x64.zip" target="_blank" class="button btn-align-md primary-btn raised">Download (.zip)</a>
+                                <a download href="/release/linux/mount-app-linux-x64.zip" target="_blank" class="button btn-align-md primary-btn raised">Download (.zip)</a>
                             </div>
                         </div>
                     </div>
