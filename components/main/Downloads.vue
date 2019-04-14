@@ -3,44 +3,59 @@
         <div class="container">
 
             <div class="title-wrapper has-text-centered">
-                <h2 class="title is-2 light-text is-spaced">Our Clients love us !</h2>
-                <h3 class="subtitle is-5 light-text">Lorem ipsum sit dolor amet is a dummy text used by typography industry </h3>
+                <h2 class="title is-2 light-text is-spaced">Downloads</h2>
+                <h3 class="subtitle is-5 light-text">It's up to you to choose your side!</h3>
             </div>
 
             <div class="content-wrapper">
                 <div class="columns is-vcentered">
-                    <div class="column is-4">
-                        <figure class="testimonial">
-                            <blockquote>
-                                Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-                            </blockquote>
-                            <div class="author">
-                                <img src="~assets/img/illustrations/faces/1.png" alt=""/>
-                                <h5>Irma Walters</h5><span>Accountant</span>
+                    <div class="column is-one-third">
+                        <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+                            <div class="card-title">
+                                <h4>Mac OS</h4>
                             </div>
-                        </figure>
+                            <div class="card-icon">
+                                <img src="~assets/img/illustrations/icons/mouse-globe.svg">
+                            </div>
+                            <!-- <div class="card-text">
+                                <p>This is some explanatory text that is on two rows</p>
+                            </div> -->
+                            <div class="card-action">
+                                <a href="#" class="button btn-align-md accent-btn raised">Download (.dmg)</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="column is-4">
-                        <figure class="testimonial">
-                            <blockquote>
-                                Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-                            </blockquote>
-                            <div class="author">
-                                <img src="~assets/img/illustrations/faces/2.png" alt=""/>
-                                <h5>John Bradley</h5><span>Financial Analyst</span>
+                    <div class="column">
+                        <div class="feature-card is-bordered has-text-centered revealOnScroll delay-2" data-animation="fadeInLeft">
+                            <div class="card-title">
+                                <h4>Windows</h4>
                             </div>
-                        </figure>
+                            <div class="card-icon">
+                                <img src="~assets/img/illustrations/icons/laptop-cloud.svg">
+                            </div>
+                            <!-- <div class="card-text">
+                                <p>This is some explanatory text that is on two rows</p>
+                            </div> -->
+                            <div class="card-action">
+                                <a href="#" class="button btn-align-md secondary-btn raised">Download (.exe)</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="column is-4">
-                        <figure class="testimonial">
-                            <blockquote>
-                                Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-                            </blockquote>
-                            <div class="author">
-                                <img src="~assets/img/illustrations/faces/3.png" alt=""/>
-                                <h5>Gary Blackman</h5><span>HR Manager</span>
+                    <div class="column">
+                        <div class="feature-card is-bordered has-text-centered revealOnScroll delay-3" data-animation="fadeInLeft">
+                            <div class="card-title">
+                                <h4>Linux</h4>
                             </div>
-                        </figure>
+                            <div class="card-icon">
+                                <img src="~assets/img/illustrations/icons/plug-cloud.svg">
+                            </div>
+                            <!-- <div class="card-text">
+                                <p>This is some explanatory text that is on two rows</p>
+                            </div> -->
+                            <div class="card-action">
+                                <a href="#" class="button btn-align-md primary-btn raised">Download (.zip)</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
