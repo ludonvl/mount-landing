@@ -24,7 +24,7 @@
                         <a href="#" class="navbar-item is-secondary">
                             {{ $t("navbar.pricing") }}
                         </a>
-                        <a href="#" class="navbar-item is-secondary">
+                        <a href="#downloads" class="navbar-item is-secondary">
                             {{ $t("navbar.download") }}
                         </a>
                         <a href="#" class="navbar-item is-secondary modal-trigger" data-target="modal">

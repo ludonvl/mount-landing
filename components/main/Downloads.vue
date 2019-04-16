@@ -1,5 +1,5 @@
 <template>
-    <section class="section is-medium section-secondary">
+    <section id="downloads" class="section is-medium section-secondary">
         <div class="container">
 
             <div class="title-wrapper has-text-centered">
