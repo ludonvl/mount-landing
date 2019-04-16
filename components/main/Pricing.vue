@@ -1,5 +1,5 @@
 <template>
-    <section class="section section-feature-grey is-medium">
+    <section id="pricing" class="section section-feature-grey is-medium">
         <div class="container">
             <div class="title-wrapper has-text-centered">
                 <h2 class="title is-2">Pricing</h2>

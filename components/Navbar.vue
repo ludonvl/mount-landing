@@ -3,7 +3,7 @@
         <nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
             <div class="container">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" href="/">
                         <img src="~assets/img/mount-logo.svg" alt="" width="112" height="28">
                     </a>
 
@@ -16,16 +16,15 @@
                 </div>
 
                 <div id="navbar-menu" :class="['navbar-menu', { 'is-active': isHamburger }]">
-
                     <div class="navbar-end">
-                        <a href="#" class="navbar-item is-secondary">
+                        <a href="#" v-scroll-to="'#features'" class="navbar-item is-secondary">
                             {{ $t("navbar.features") }}
                         </a>
-                        <a href="#" class="navbar-item is-secondary">
-                            {{ $t("navbar.pricing") }}
-                        </a>
-                        <a href="#downloads" class="navbar-item is-secondary">
+                        <a href="#" v-scroll-to="'#downloads'" v-smooth-scroll class="navbar-item is-secondary">
                             {{ $t("navbar.download") }}
+                        </a>
+                        <a href="#" v-scroll-to="'#pricing'" class="navbar-item is-secondary">
+                            {{ $t("navbar.pricing") }}
                         </a>
                         <a href="#" class="navbar-item is-secondary modal-trigger" data-target="modal">
                             {{ $t("navbar.login") }}

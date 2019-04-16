@@ -60,6 +60,7 @@ module.exports = {
 
 	modules: [
 		'@nuxtjs/axios',
+		['vue-scrollto/nuxt', { duration: 600 }],
 		['nuxt-i18n', {
 			locales: [
 				{

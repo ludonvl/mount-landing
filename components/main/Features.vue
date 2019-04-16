@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="features">
         <section class="section is-medium section-feature-grey">
             <div class="container">
                 <div class="columns">
