@@ -15,13 +15,13 @@
                                 <h4>Mac OS</h4>
                             </div>
                             <div class="card-icon">
-                                <img src="~assets/img/illustrations/icons/mouse-globe.svg">
+                                <img src="~assets/img/illustrations/icons/logo-apple.svg">
                             </div>
                             <!-- <div class="card-text">
                                 <p>This is some explanatory text that is on two rows</p>
                             </div> -->
                             <div class="card-action">
-                                <a href="#" class="button btn-align-md accent-btn raised">Download (.dmg)</a>
+                                <a href="#" class="button btn-align-md raised">Download (.dmg)</a>
                             </div>
                         </div>
                     </div>
@@ -31,13 +31,13 @@
                                 <h4>Windows</h4>
                             </div>
                             <div class="card-icon">
-                                <img src="~assets/img/illustrations/icons/laptop-cloud.svg">
+                                <img src="~assets/img/illustrations/icons/logo-windows.svg">
                             </div>
                             <!-- <div class="card-text">
                                 <p>This is some explanatory text that is on two rows</p>
                             </div> -->
                             <div class="card-action">
-                                <a href="#" class="button btn-align-md secondary-btn raised">Download (.exe)</a>
+                                <a href="#" class="button btn-align-md raised">Download (.exe)</a>
                             </div>
                         </div>
                     </div>
@@ -47,13 +47,13 @@
                                 <h4>Linux</h4>
                             </div>
                             <div class="card-icon">
-                                <img src="~assets/img/illustrations/icons/plug-cloud.svg">
+                                <img src="~assets/img/illustrations/icons/logo-linux.svg">
                             </div>
                             <!-- <div class="card-text">
                                 <p>This is some explanatory text that is on two rows</p>
                             </div> -->
                             <div class="card-action">
-                                <a download href="/release/linux/mount-app-linux-x64.zip" target="_blank" class="button btn-align-md primary-btn raised">Download (.zip)</a>
+                                <a download href="/release/linux/mount-app-linux-x64.zip" target="_blank" class="button btn-align-md raised">Download (.zip)</a>
                             </div>
                         </div>
                     </div>

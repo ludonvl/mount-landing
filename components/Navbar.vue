@@ -5,9 +5,8 @@
                 <div class="navbar-brand">
                     <a class="navbar-item" href="/">
                         <img src="~assets/img/mount-logo.svg" alt="" width="112" height="28">
+                        <span class="name">{{$t('common.appname')}}</span>
                     </a>
-
-
                     <a role="button" :class="['navbar-burger', { 'is-active': isHamburger }]" @click="isHamburger = !isHamburger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
@@ -26,14 +25,14 @@
                         <a href="#" v-scroll-to="'#pricing'" class="navbar-item is-secondary">
                             {{ $t("navbar.pricing") }}
                         </a>
-                        <a href="#" class="navbar-item is-secondary modal-trigger" data-target="modal">
+                        <a href="#" class="navbar-item is-secondary modal-trigger" data-target="auth-modal">
                             {{ $t("navbar.login") }}
                         </a>
-                        <a class="navbar-item">
+                        <nuxt-link to="/signup" class="navbar-item">
                             <span class="button signup-button rounded secondary-btn raised">
                             {{ $t("navbar.signup") }}
                             </span>
-                        </a>
+                        </nuxt-link>
                         <div class="navbar-item has-dropdown is-hoverable">
                             <a class="navbar-item">
                                 {{ currentLang }}
@@ -69,3 +68,15 @@
         }
     }
 </script>
+<style lang="scss">
+@import '~assets/scss/var';
+
+    .navbar-item {
+        .name {
+            color: $primary;
+            font-size: 26px;
+            font-family: $ft_nunito_regular;
+            font-weight: bold;
+        }
+    }
+</style>

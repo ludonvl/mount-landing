@@ -1,17 +1,26 @@
 const common = require('./lang/common')
 const navbar = require('./lang/navbar')
 const sign = require('./lang/sign')
+const pricing = require('./lang/pricing')
+const contact = require('./lang/contact')
+const form = require('./lang/form')
 
 const translations = {
 	en: {
 		...common.en,
 		...navbar.en,
 		...sign.en,
+		...pricing.en,
+		...contact.en,
+		...form.en,
 	},
 	fr: {
 		...common.fr,
 		...navbar.fr,
 		...sign.fr,
+		...pricing.fr,
+		...contact.fr,
+		...form.fr,
 	}
 }
 
@@ -20,7 +29,7 @@ module.exports = {
 	** Headers of the page
 	*/
 	head: {
-		title: 'Mount',
+		title: 'Mounted',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },

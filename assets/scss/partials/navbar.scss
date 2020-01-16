@@ -8,6 +8,7 @@ Navbar
     min-height: 3.8rem;
     transition: all .3s;
     z-index: 29;
+//    border-bottom: 3px solid $fade-grey;
     .container {
         min-height: 4rem;
     }
@@ -39,6 +40,7 @@ Navbar
     //Navbar items
     .navbar-item {
         color: $muted-grey;
+
         &.is-secondary {
             &:hover {
                 color: $secondary !important;
@@ -110,6 +112,6 @@ Navbar
     z-index: 100;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
     &.is-active {
-        transform: translateY(0); 
+        transform: translateY(0);
     }
 }

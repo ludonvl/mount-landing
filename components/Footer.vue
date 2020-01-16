@@ -5,7 +5,7 @@
                 <div class="columns">
                     <div class="column">
                         <div class="footer-logo">
-                            <img src="~assets/img/mount-logo.svg">
+                            <img src="~assets/img/logos/mounted-white-rounded.png">
                         </div>
                     </div>
                     <div class="column">
@@ -50,7 +50,7 @@
                     <div class="column">
                         <div class="footer-column">
                             <div class="footer-header">
-                                <h3>Follow Us</h3>
+                                <h3>Follow me</h3>
                                 <nav class="level is-mobile">
                                     <div class="level-left">
                                         <a class="level-item" href="https://github.com/#">

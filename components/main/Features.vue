@@ -75,7 +75,7 @@
                 <div class="columns">
                     <div class="column is-10 is-offset-1">
                         <div class="has-text-centered">
-                            <img class="pushed-image" src="~assets/img/illustrations/mockups/app-mockup.png">
+                            <img class="rounded pushed-image" src="~assets/img/illustrations/mockups/app-mockup.png">
                         </div>
                     </div>
                 </div>

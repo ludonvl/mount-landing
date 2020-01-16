@@ -62,6 +62,10 @@ Section Styles
 //Pulled image
 img.pushed-image {
     margin-top: -29vh;
+
+    &.rounded {
+        border-radius: 10px;
+    }
 }
 
 //Icon box

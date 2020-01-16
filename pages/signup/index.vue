@@ -1,32 +1,43 @@
 <template>
+<div>
+    <section class="hero is-fullheight is-default is-bold">
+        <Navbar/>
         <div class="hero-body">
-            <div class="container has-text-centered">
-                <div class="column is-4 is-offset-4">
-                    <h3 class="title">{{ $t('sign.signup.title') }}</h3>
-                    <p class="subtitle">{{ $t('sign.signup.subtitle') }}</p>
-                    <div class="box">
-                        <figure class="avatar">
-                            <img src="~assets/img/mount-logo.svg">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column is-5">
+                        <figure class="image is-4by3">
+                            <img src="~assets/img/illustrations/star-wars.svg" alt="power-up">
                         </figure>
+                    </div>
+                    <div class="column is-6 is-offset-1">
+                        <h3 class="title" v-html="$t('common.signup.title')"></h3>
+                        <p class="subtitle">{{ $t('common.signup.description') }}</p>
                         <form>
                             <div class="field">
                                 <div class="control">
-                                    <input class="input is-large" type="email" placeholder="Your Email" autofocus="">
+                                    <input class="input is-large" type="email" :placeholder="$t('form.label.email')" autofocus="">
                                 </div>
                             </div>
                             <div class="field">
                                 <div class="control">
-                                    <input class="input is-large" type="password" placeholder="Your Password">
+                                    <input class="input is-large" type="password" :placeholder="$t('form.label.password')">
                                 </div>
                             </div>
                             <button class="button is-block is-info is-large is-fullwidth">Sign in</button>
                         </form>
                     </div>
-                    <p>
-                        <nuxt-link :to="localePath('signin')">Sign In</nuxt-link> &nbsp;·&nbsp;
-                        <a href="../">Need Help?</a>
-                    </p>
                 </div>
             </div>
         </div>
+    </section>
+</div>
 </template>
+<script>
+import Navbar from '~/components/Navbar'
+export default {
+    components: {
+        Navbar,
+    }
+}
+</script>
