@@ -7,7 +7,10 @@ module.exports = {
 				email: 'Email',
 				language: 'Language',
 				password: 'Password',
+				confirmPassword: 'Password confirmation',
 				name: 'Name',
+				cgu: 'J\'accepte les conditions général d\'utilisation',
+				or: 'Ou',
 			},
 			fieldname: {
 				firstname: 'firstname',
@@ -23,6 +26,7 @@ module.exports = {
 			},
 			button: {
 				sendMessage: 'Send message',
+				signup: 'Sign up',
 			},
 			info: {
 				optional: 'optional',
@@ -46,7 +50,10 @@ module.exports = {
 				email: 'Email',
 				language: 'Langue',
 				password: 'Mot de passe',
+				confirmPassword: 'Mot de passe de confirmation',
 				name: 'Nom',
+				cgu: 'J\'accepte les conditions général d\'utilisation',
+				or: 'Or',
 			},
 			fieldname: {
 				firstname: 'prénom',
@@ -62,6 +69,7 @@ module.exports = {
 			},
 			button: {
 				sendMessage: 'Envoyer le message',
+				signup: 'S\'inscrire',
 			},
 			info: {
 				optional: 'optionel',

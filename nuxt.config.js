@@ -70,6 +70,14 @@ module.exports = {
 	modules: [
 		'@nuxtjs/axios',
 		['vue-scrollto/nuxt', { easing: 'ease-in-out', duration: 700 }],
+		['nuxt-validate', {
+			lang: 'fr',
+			nuxti18n: {
+			  locale: {
+				'zh-CN': 'zh_CN'
+			  }
+			}
+		}],
 		['nuxt-i18n', {
 			locales: [
 				{

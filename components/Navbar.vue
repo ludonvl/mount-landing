@@ -19,7 +19,7 @@
                         <a href="#" v-scroll-to="'#features'" class="navbar-item is-secondary">
                             {{ $t("navbar.features") }}
                         </a>
-                        <a href="#" v-scroll-to="'#downloads'" v-smooth-scroll class="navbar-item is-secondary">
+                        <a href="#" v-scroll-to="'#downloads'" class="navbar-item is-secondary">
                             {{ $t("navbar.download") }}
                         </a>
                         <a href="#" v-scroll-to="'#pricing'" class="navbar-item is-secondary">

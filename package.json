@@ -1,5 +1,5 @@
 {
-  "name": "mount",
+  "name": "mounted",
   "version": "1.0.0",
   "description": "Nuxt.js project",
   "author": "Ludovic Nouvel <ludovic@heyteam.com>",
@@ -19,6 +19,7 @@
     "font-awesome": "^4.7.0",
     "nuxt": "^2.11.0",
     "nuxt-i18n": "^5.8.5",
+    "nuxt-validate": "^1.0.1",
     "vue-scrollto": "^2.15.0",
     "vue2-smooth-scroll": "^1.1.1"
   },

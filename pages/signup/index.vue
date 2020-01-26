@@ -13,19 +13,36 @@
                     <div class="column is-6 is-offset-1">
                         <h3 class="title" v-html="$t('common.signup.title')"></h3>
                         <p class="subtitle">{{ $t('common.signup.description') }}</p>
-                        <form>
+                        <form @submit.prevent="onValidate">
                             <div class="field">
                                 <div class="control">
-                                    <input class="input is-large" type="email" :placeholder="$t('form.label.email')" autofocus="">
+                                    <input v-validate.disable="'required|email'" v-model="test" name="email" class="input is-large" type="text" :placeholder="`* ${$t('form.label.email')}`" autofocus="">
+                                    <span>{{ errors.first('email') }}</span>
                                 </div>
                             </div>
                             <div class="field">
                                 <div class="control">
-                                    <input class="input is-large" type="password" :placeholder="$t('form.label.password')">
+                                    <input class="input is-large" type="password" :placeholder="`* ${$t('form.label.password')}`">
                                 </div>
                             </div>
-                            <button class="button is-block is-info is-large is-fullwidth">Sign in</button>
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-large" type="password" :placeholder="`* ${$t('form.label.confirmPassword')}`">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input id="cgu" class="is-large" type="checkbox" v-model="checkbox">
+                                    <label for="cgu" v-html="$t('form.label.cgu')"></label>
+                                </div>
+                            </div>
+                            <button class="button is-block is-info is-large is-fullwidth">{{$t('form.button.signup')}}</button>
                         </form>
+                        <div class="column has-text-centered">
+                            <span>{{ $t('form.label.or') }}</span>
+                        </div>
+                        <div class="column has-text-centered">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -35,9 +52,24 @@
 </template>
 <script>
 import Navbar from '~/components/Navbar'
+
 export default {
+
     components: {
         Navbar,
+    },
+
+    methods: {
+        onValidate() {
+            this.$validator.validateAll()
+        }
+    },
+
+    data() {
+        return {
+            test: null,
+            checkbox: false,
+        }
     }
 }
 </script>
