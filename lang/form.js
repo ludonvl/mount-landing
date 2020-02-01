@@ -9,7 +9,7 @@ module.exports = {
 				password: 'Password',
 				confirmPassword: 'Password confirmation',
 				name: 'Name',
-				cgu: 'J\'accepte les conditions général d\'utilisation',
+				cgu: 'I accept <a href="#">terms and conditions</a>',
 				or: 'Ou',
 			},
 			fieldname: {
@@ -52,7 +52,7 @@ module.exports = {
 				password: 'Mot de passe',
 				confirmPassword: 'Mot de passe de confirmation',
 				name: 'Nom',
-				cgu: 'J\'accepte les conditions général d\'utilisation',
+				cgu: 'J\'accepte les <a href="#">conditions général d\'utilisation</a>',
 				or: 'Or',
 			},
 			fieldname: {

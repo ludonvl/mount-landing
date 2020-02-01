@@ -16,7 +16,7 @@
                         <form @submit.prevent="onValidate">
                             <div class="field">
                                 <div class="control">
-                                    <input v-validate.disable="'required|email'" v-model="test" name="email" class="input is-large" type="text" :placeholder="`* ${$t('form.label.email')}`" autofocus="">
+                                    <input v-validate.disable="'required|email'" v-model="email" name="email" class="input is-large" type="text" :placeholder="`* ${$t('form.label.email')}`" autofocus="">
                                     <span>{{ errors.first('email') }}</span>
                                 </div>
                             </div>
@@ -36,13 +36,20 @@
                                     <label for="cgu" v-html="$t('form.label.cgu')"></label>
                                 </div>
                             </div>
-                            <button class="button is-block is-info is-large is-fullwidth">{{$t('form.button.signup')}}</button>
+                            <div class="columns is-vcentered">
+                                <div class="column">
+                                    <span class="button cta rounded secondary-btn raised">{{$t('form.button.signup')}}</span>
+                                </div>
+                                <div class="column  has-text-centered">
+                                    <span>{{ $t('form.label.or') }}</span>
+                                </div>
+                                <div class="column has-text-centered">
+                                    <div class="button cta rounded raised">
+                                        <font-awesome-icon :icon="['fab', 'google']"  />
+                                    </div>
+                                </div>
+                            </div>
                         </form>
-                        <div class="column has-text-centered">
-                            <span>{{ $t('form.label.or') }}</span>
-                        </div>
-                        <div class="column has-text-centered">
-                        </div>
                     </div>
                 </div>
             </div>
@@ -59,15 +66,23 @@ export default {
         Navbar,
     },
 
+    created() {
+        console.log(this)
+    },
+
     methods: {
         onValidate() {
             this.$validator.validateAll()
+        },
+
+        test() {
+            console.log('tokok')
         }
     },
 
     data() {
         return {
-            test: null,
+            email: null,
             checkbox: false,
         }
     }

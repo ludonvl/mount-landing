@@ -69,6 +69,16 @@ module.exports = {
 
 	modules: [
 		'@nuxtjs/axios',
+		['nuxt-fontawesome', {
+			component: 'font-awesome-icon',
+			imports: [{
+				set: '@fortawesome/free-solid-svg-icons',
+				icons: ['fas']
+			}, {
+				set: '@fortawesome/free-brands-svg-icons',
+				icons: ['fab']
+			}]
+		}],
 		['vue-scrollto/nuxt', { easing: 'ease-in-out', duration: 700 }],
 		['nuxt-validate', {
 			lang: 'fr',
