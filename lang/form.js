@@ -9,15 +9,17 @@ module.exports = {
 				password: 'Password',
 				confirmPassword: 'Password confirmation',
 				name: 'Name',
-				cgu: 'I accept <a href="#">terms and conditions</a>',
+				cgu: 'I accept <span id="termsAndConditions">terms and conditions</span>',
 				or: 'Ou',
 			},
-			fieldname: {
+			fieldName: {
 				firstname: 'firstname',
 				lastname: 'lastname',
 				email: 'email',
 				language: 'language',
 				password: 'password',
+				confirmPassword: 'password confirmation',
+				cgu: 'terms and conditions'
 			},
 			placeholder: {
 				name1: 'Tell me who you are',
@@ -27,18 +29,15 @@ module.exports = {
 			button: {
 				sendMessage: 'Send message',
 				signup: 'Sign up',
+				close: 'Close',
+				gotIt: 'Ok, got it !',
 			},
 			info: {
 				optional: 'optional',
 				mandatory: 'mandatory',
 			},
 			message: {
-				user: {
-					update: {
-						success: 'Succes',
-						error: ''
-					}
-				}
+				errorOccured: 'You need to fix these errors :',
 			}
 		}
 	},
@@ -52,15 +51,17 @@ module.exports = {
 				password: 'Mot de passe',
 				confirmPassword: 'Mot de passe de confirmation',
 				name: 'Nom',
-				cgu: 'J\'accepte les <a href="#">conditions général d\'utilisation</a>',
+				cgu: 'J\'accepte les <span id="termsAndConditions">conditions général d\'utilisation</span>',
 				or: 'Or',
 			},
-			fieldname: {
+			fieldName: {
 				firstname: 'prénom',
 				lastname: 'nom',
 				email: 'email',
 				language: 'langue',
 				password: 'mot de passe',
+				confirmPassword: 'confirmation de mot de passe',
+				cgu: 'conditions général d\'utilisation'
 			},
 			placeholder: {
 				name1: 'Dis moi ton nom',
@@ -70,18 +71,15 @@ module.exports = {
 			button: {
 				sendMessage: 'Envoyer le message',
 				signup: 'S\'inscrire',
+				close: 'Fermer',
+				gotIt: 'Ok, compris !',
 			},
 			info: {
 				optional: 'optionel',
 				mandatory: 'obligatoire',
 			},
 			message: {
-				user: {
-					update: {
-						success: 'Succes',
-						error: ''
-					}
-				}
+				errorOccured: 'Vous devez corriger ces erreurs :',
 			}
 		}
 	}
