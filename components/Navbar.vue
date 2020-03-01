@@ -25,15 +25,15 @@
                         <a href="#" v-scroll-to="'#pricing'" class="navbar-item is-secondary">
                             {{ $t("navbar.pricing") }}
                         </a>
-                        <a href="#" class="navbar-item is-secondary modal-trigger" data-target="auth-modal">
+                        <nuxt-link to="/signin" class="navbar-item is-secondary modal-trigger">
                             {{ $t("navbar.login") }}
-                        </a>
+                        </nuxt-link>
                         <nuxt-link to="/signup" class="navbar-item">
                             <span class="button signup-button rounded secondary-btn raised">
                             {{ $t("navbar.signup") }}
                             </span>
                         </nuxt-link>
-                        <div class="navbar-item has-dropdown is-hoverable">
+                        <div class="navbar-item has-dropdown is-hoverable hide-tablet">
                             <a class="navbar-item">
                                 {{ currentLang }}
                             </a>
@@ -79,4 +79,11 @@
             font-weight: bold;
         }
     }
+</style>
+<style lang="scss" scoped>
+@media (max-width: 1023px) {
+    .hide-tablet {
+        display:none;
+    }
+}
 </style>

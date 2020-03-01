@@ -6,13 +6,12 @@ module.exports = {
             catcher: 'Save time by anticipating your devices ignition.',
             needit: 'Want this !',
             lang: {
+                title: 'Language',
                 french: 'French',
                 english: 'English',
             },
-            signup: {
-                title: 'Do like <u>Anakin</u>.',
-                description: 'Come to the dark side by completing the rest.'
-            }
+            headTitle: 'Mounted - Wake up your devices',
+            headTitle2: 'Mounted - Come to the dark side'
 		},
 	},
 	fr: {
@@ -22,13 +21,12 @@ module.exports = {
 			catcher: 'Gagnez du temps en anticipant l\'allumage de vos appareils.',
             needit: 'Je veux !',
             lang: {
+                title: 'Langue',
                 french: 'Français',
                 english: 'Anglais',
             },
-            signup: {
-                title: 'Fait comme <u>Anakin</u>.',
-                description: 'Passe du côté obscur en complétant la suite.'
-            }
+            headTitle: 'Mounted - Réveille tes appareils',
+            headTitle2: 'Mounted - Rejoins le côté obscur'
 		},
 	},
 }

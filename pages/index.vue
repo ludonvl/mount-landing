@@ -11,9 +11,11 @@
                         </h1>
                         <h2 class="subtitle is-5 is-offset-1 is-muted">{{ $t("common.catcher") }}</h2>
                         <p>
-                            <a class="button cta rounded primary-btn raised">
+                            <nuxt-link to="/signin">
+                                <span class="button cta rounded primary-btn raised">
                                 {{ $t("common.needit") }}
-                            </a>
+                                </span>
+                            </nuxt-link>
                         </p>
                     </div>
                     <div class="column is-4 is-offset-1">
@@ -82,6 +84,12 @@ import Contact from '../components/main/Contact'
             Downloads,
             Pricing,
             Contact
+        },
+
+        head() {
+            return {
+                title: this.$t('common.headTitle')
+            }
         }
 
     }

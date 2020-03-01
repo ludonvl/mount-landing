@@ -38,12 +38,15 @@
                     <div class="column">
                         <div class="footer-column">
                             <div class="footer-header">
-                                <h3>Blogroll</h3>
+                                <h3>{{ $t("common.lang.title") }}</h3>
                             </div>
                             <ul class="link-list">
-                                <li><a href="#">Latest News</a></li>
-                                <li><a href="#">Tech articles</a></li>
-                                <li><a href="#">Video Blog</a></li>
+                                <li><nuxt-link :to="switchLocalePath('fr')">
+                                    {{ $t("common.lang.french") }}
+    							</nuxt-link></li>
+                                <li><nuxt-link :to="switchLocalePath('en')">
+                                    {{ $t("common.lang.english") }}
+    							</nuxt-link></li>
                             </ul>
                         </div>
                     </div>
@@ -65,7 +68,7 @@
                                         <a class="level-item" href="https://twitter.com/#">
                                             <span class="icon"><i class="fa fa-twitter"></i></span>
                                         </a>
-                                    <a class="level-item" href="https://bitbucket.org/#">
+                                        <a class="level-item" href="https://bitbucket.org/#">
                                             <span class="icon"><i class="fa fa-bitbucket"></i></span>
                                         </a>
                                     </div>

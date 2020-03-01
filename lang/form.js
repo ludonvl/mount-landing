@@ -9,7 +9,7 @@ module.exports = {
 				password: 'Password',
 				confirmPassword: 'Password confirmation',
 				name: 'Name',
-				cgu: 'I accept <span id="termsAndConditions">terms and conditions</span>',
+				cgu: "I accept <span class='link' id='termsAndConditions'>terms and conditions</span>",
 				or: 'Ou',
 			},
 			fieldName: {
@@ -28,6 +28,7 @@ module.exports = {
 			},
 			button: {
 				sendMessage: 'Send message',
+				signin: 'Log in',
 				signup: 'Sign up',
 				close: 'Close',
 				gotIt: 'Ok, got it !',
@@ -51,7 +52,7 @@ module.exports = {
 				password: 'Mot de passe',
 				confirmPassword: 'Mot de passe de confirmation',
 				name: 'Nom',
-				cgu: 'J\'accepte les <span id="termsAndConditions">conditions général d\'utilisation</span>',
+				cgu: "J\'accepte les <span class='link' id='termsAndConditions'>conditions général d'utilisation</span>",
 				or: 'Or',
 			},
 			fieldName: {
@@ -70,6 +71,7 @@ module.exports = {
 			},
 			button: {
 				sendMessage: 'Envoyer le message',
+				signin: 'Se connecter',
 				signup: 'S\'inscrire',
 				close: 'Fermer',
 				gotIt: 'Ok, compris !',
@@ -79,7 +81,7 @@ module.exports = {
 				mandatory: 'obligatoire',
 			},
 			message: {
-				errorOccured: 'Vous devez corriger ces erreurs :',
+				errorOccured: 'Certaines erreurs sont apparues :',
 			}
 		}
 	}
