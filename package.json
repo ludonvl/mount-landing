@@ -13,6 +13,9 @@
     "precommit": "npm run lint",
     "heroku-postbuild": "npm run build"
   },
+  "engines": {
+    "node": "14.20.0"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-brands-svg-icons": "^5.12.0",
