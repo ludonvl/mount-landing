@@ -1,4 +1,4 @@
-# mount
+# Mounted
 
 > Nuxt.js project
 
