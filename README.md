@@ -1,4 +1,4 @@
-# Mounted
+# Mounted Landing
 
 > Nuxt.js project
 
