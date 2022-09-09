@@ -3,8 +3,8 @@ Fresh Footer
 ========================================================================== */
 
 footer.footer-dark {
-    background: $blue-grey;
-    color: $white;
+    background: $white-ter;
+    color: $black-ter;
     .columns {
         margin-top: 35px;
     }
@@ -25,12 +25,12 @@ footer.footer-dark {
             line-height: 40px;
             font-size: 1.1rem;
             a {
-                color: $light-blue-grey;
+                color: $grey-dark;
                 font-weight: 400;
                 transition: all 0.5s;
             }
             :hover {
-                color: $smoke-white;
+                color: $grey-darker;
             }
         }
         .level-item .icon {

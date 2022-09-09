@@ -22,9 +22,6 @@
                         <a href="#" v-scroll-to="'#downloads'" class="navbar-item is-secondary">
                             {{ $t("navbar.download") }}
                         </a>
-                        <a href="#" v-scroll-to="'#pricing'" class="navbar-item is-secondary">
-                            {{ $t("navbar.pricing") }}
-                        </a>
                         <nuxt-link to="/signin" class="navbar-item is-secondary modal-trigger">
                             {{ $t("navbar.login") }}
                         </nuxt-link>

@@ -32,9 +32,7 @@
 
     <Downloads />
 
-    <Pricing />
-
-    <Contact />
+    <!-- <Contact /> -->
 
     <div id="auth-modal" class="modal">
         <div class="modal-background"></div>

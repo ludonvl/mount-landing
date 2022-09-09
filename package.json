@@ -2,7 +2,7 @@
   "name": "mounted",
   "version": "1.0.0",
   "description": "Nuxt.js project",
-  "author": "Ludovic Nouvel <ludovic@heyteam.com>",
+  "author": "Ludo Nvl <ludo.nvl@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
