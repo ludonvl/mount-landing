@@ -1,5 +1,7 @@
 # Mounted Landing
 
+Wake up your devices as quick as you can
+
 > Nuxt.js project
 
 ## Build Setup
